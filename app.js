@@ -41,7 +41,7 @@ function togglepopup4(){
 }
 function opened(){
       document.getElementById("service-pop1").classList.add("active");
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow.y = "hidden";
 }
 function closed(){
       document.getElementById("service-pop1").classList.remove("active");
