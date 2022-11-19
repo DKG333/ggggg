@@ -45,6 +45,6 @@ function opened(){
 }
 function closed(){
       document.getElementById("service-pop1").classList.remove("active");
-      document.body.style.overflow = "auto";
+      document.body.style.overflow.y = "auto";
       
 }
