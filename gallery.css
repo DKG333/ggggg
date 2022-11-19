@@ -5,6 +5,7 @@
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
     transition: all .2s linear;
+    overflow-x: hidden;
 }
 .gallery{
     background: #ddd;
@@ -54,6 +55,9 @@
     color: deepskyblue;
 }
 @media(max-width:991px) {
+    body{
+        overflow-x: hidden;
+    }
     .gallery{
    
         column-count: 2;
@@ -61,7 +65,7 @@
     }
 }
 
-@media(max-width:600px) {
+@media(max-width:400px) {
     .gallery{
    
         column-count: 1;

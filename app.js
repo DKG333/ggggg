@@ -7,18 +7,18 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
 
-// var scroll = new SmoothScroll('a[href*="#"]', {
-//  speed: 2000,
-//  speedAsDuration: true
-// });
-// const options = {
-//       speed: 1000,
-//       speedAsDuration: true,
-//       offset: window.innerWidth < 768 ? 400 : 90
-//   }
-//   new SmoothScroll('a[href*="#"]', options);
+var scroll = new SmoothScroll('a[href*="#"]', {
+ speed: 2000,
+ speedAsDuration: true
+});
+const options = {
+      speed: 1000,
+      speedAsDuration: true,
+      offset: window.innerWidth < 768 ? 400 : 90
+  }
+  new SmoothScroll('a[href*="#"]', options);
 
-// toggling pop window for packages
+//toggling pop window for packages
 pop_btn = document.querySelector(".button");
 function togglepopup(){
 
@@ -33,4 +33,18 @@ function togglepopup2(){
 
 function togglepopup3(){
       document.getElementById("popup-3").classList.toggle("active");
+}
+
+
+function togglepopup4(){
+      document.getElementById("service-pop").classList.toggle("active");
+}
+function opened(){
+      document.getElementById("service-pop1").classList.add("active");
+      document.body.style.overflow = "hidden";
+}
+function closed(){
+      document.getElementById("service-pop1").classList.remove("active");
+      document.body.style.overflow = "auto";
+      
 }
