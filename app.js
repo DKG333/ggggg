@@ -7,16 +7,16 @@ toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
 
-var scroll = new SmoothScroll('a[href*="#"]', {
- speed: 2000,
- speedAsDuration: true
-});
-const options = {
-      speed: 1000,
-      speedAsDuration: true,
-      offset: window.innerWidth < 768 ? 400 : 90
-  }
-  new SmoothScroll('a[href*="#"]', options);
+// var scroll = new SmoothScroll('a[href*="#"]', {
+//  speed: 2000,
+//  speedAsDuration: true
+// });
+// const options = {
+//       speed: 1000,
+//       speedAsDuration: true,
+//       offset: window.innerWidth < 768 ? 400 : 90
+//   }
+//   new SmoothScroll('a[href*="#"]', options);
 
 //toggling pop window for packages
 pop_btn = document.querySelector(".button");
