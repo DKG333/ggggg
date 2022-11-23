@@ -64,10 +64,11 @@ function service_closed(){
 function service__opened(){
       document.getElementById("service-pop3").classList.add("active");
       document.body.style.overflow = "hidden";
+      document.body.style.overflow.x = "hidden";
 }
 function service__closed(){
       document.getElementById("service-pop3").classList.remove("active");
       document.body.style.overflow = "auto";
-      window.body.style.overflow.x = "hidden";
+      document.body.style.overflow.x = "hidden";
       
 }
