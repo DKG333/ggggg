@@ -67,7 +67,7 @@ function service__opened(){
 }
 function service__closed(){
       document.getElementById("service-pop3").classList.remove("active");
-      document.body.style.overflow.y = "auto";
+      document.body.style.overflow = "auto";
       window.body.style.overflow.x = "hidden";
       
 }

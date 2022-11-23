@@ -660,6 +660,9 @@ body .navbar__container{
 }
 
 @media (max-width:600px) {
+    body html{
+        overflow-x: hidden;
+    }
     #service{
         width: 100%;
         height: 100%;
