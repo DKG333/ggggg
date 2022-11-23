@@ -506,34 +506,6 @@ body .navbar__container{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .service-content4{
     background-color: #000000;
 }
@@ -721,7 +693,7 @@ body .navbar__container{
     }
     .service-popup .service-content{
         position: fixed;
-        top: 60%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%,-50%)  scale(0);
         background: #fff;
