@@ -45,30 +45,28 @@ function togglepopup4(){
 
 function opened(){
       document.getElementById("service-pop1").classList.add("active");
-      document.body.style.overflow = "hidden";
+      
 }
 function closed(){
       document.getElementById("service-pop1").classList.remove("active");
-      document.body.style.overflow = "auto";
+      
       
 }
 function service_opened(){
       document.getElementById("service-pop2").classList.add("active");
-      document.body.style.overflow = "hidden";
+     
 }
 function service_closed(){
       document.getElementById("service-pop2").classList.remove("active");
-      document.body.style.overflow = "auto";
-      
+     
 }
 function service__opened(){
       document.getElementById("service-pop3").classList.add("active");
-      // document.body.style.overflow.x = "hidden";
+     
 
 }
 function service__closed(){
       document.getElementById("service-pop3").classList.remove("active");
-      // document.body.style.overflow = "hidden";
-   
+     
       
 }
