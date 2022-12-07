@@ -54,7 +54,7 @@ function closed(){
 }
 function service_opened(){
       document.getElementById("service-pop2").classList.add("active");
-     
+    
 }
 function service_closed(){
       document.getElementById("service-pop2").classList.remove("active");
@@ -70,3 +70,6 @@ function service__closed(){
      
       
 }
+const showImage = () => {
+      document.getElementById("first").style.display ='block';
+  }
