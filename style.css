@@ -1427,6 +1427,7 @@ hr{
      }
 }
 @media only screen and (max-width: 600px) {
+
  html,body{
     overflow-x: hidden;
     padding: 0;
@@ -1441,32 +1442,59 @@ hr{
        /* ?  background-color: #ffffff; */
          height: 200px;
     }
-    /* #packages{
-
-    } */
+    #packages{
+        font-size: 1000px;
+    }
     .button3{
-        width: 200px;
+        /* width: 200px;
         height: 200px;
         margin: 0;
         background-color: gray;
-        color: white;
-        display: flex;
-        display: table-cell;
-        vertical-align:middle;
-        background-color: yellow;
-        color: black;
-        width: 20px;
+        color: white; */
+        /* display: flex; */
+        /* display: table-cell; */
+        /* vertical-align:middle; */
+        /* background-color: yellow;
+        color: black; */
+        /* width: 20px;
         text-align: center;
         font-size: 1px;
         padding-bottom: 50px;
         padding-right: 20px;
-        border-radius: 15px;
-        border: 3px dashed blue;
-        justify-content: space-between;
-        align-items: center;
+        border-radius: 15px; */
+        /* border: 3px dashed blue; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
         /* margin-left: 1000px;
         height: 200px;
         margin-top: 50px; */
+        /* vertical-align: top; */
+       
+        margin-right: 200px;
+        background-color: gray;
+        color: white;
+        /* display: flex; */
+        display: table-cell;
+        /* vertical-align:middle; */
+        background-color: yellow;
+        color: black;
+        /* width: 20px;
+        text-align: center;
+        font-size: 1px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        border-radius: 15px; */
+        border: 3px dashed blue;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* margin-left: 1000px;
+        height: 200px;
+        margin-top: 50px; */
+        padding-bottom: 50px;
+        padding-left: 30px;
+        margin-top: 50px;
+        /* margin-left: -500px; */
+        margin-right: 50px
     }
     .popup3 .closebtn{
         cursor: pointer;
@@ -1485,10 +1513,10 @@ hr{
         border-radius: 50%;
     }
     .button2{
-        width: 200px;
-        height: 200px;
-        margin: 0;
-        background-color: gray;
+        /* width: 200px;
+        height: 200px; */
+        /* margin: 0; */
+        /* background-color: gray;
         color: white;
         display: flex;
         display: table-cell;
@@ -1504,8 +1532,38 @@ hr{
         border: 3px dashed blue;
         justify-content: space-between;
         align-items: center;
-        /* margin-left: 45px;
-        margin-bottom: 1000px; */
+        margin-left: 150px;
+        margin-bottom: 100px; */
+        /* width: 100px;
+        height: 100px; */
+      
+        background-color: gray;
+        color: white;
+        /* display: flex; */
+        display: table-cell;
+        /* vertical-align:middle; */
+        background-color: yellow;
+        color: black;
+        /* width: 20px;
+        text-align: center;
+        font-size: 1px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        border-radius: 15px; */
+        border: 3px dashed blue;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* margin-left: 1000px;
+        height: 200px;
+        margin-top: 50px; */
+        padding-bottom: 50px;
+        padding-left: 30px;
+        margin-top: -300px;
+        /* margin-left: -500px; */
+        margin-left: 50px;
+    }
+    .header{
+        font-size: 1000px;
     }
     .button{
         /* width: 200px;
@@ -1637,6 +1695,9 @@ hr{
 }
 @media (min-width: 800px) and (max-width: 968px)
 {
+    #packages{
+        display: none;
+    }
     .button2{
         width: 200px;
         height: 400px;
