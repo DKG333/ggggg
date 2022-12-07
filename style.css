@@ -1635,6 +1635,93 @@ hr{
         z-index: 1000;
     }
 }
+@media (min-width: 800px) and (max-width: 968px)
+{
+    .button2{
+        width: 200px;
+        height: 400px;
+        margin: 0;
+        background-color: gray;
+        color: white;
+        display: flex;
+        display: table-cell;
+        vertical-align:middle;
+        background-color: yellow;
+        color: black;
+       
+        text-align: center;
+        font-size: 1px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        border-radius: 15px;
+        border: 3px dashed blue;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 45px;
+        margin-bottom: 1000px;
+    }
+    .button3{
+       
+        width: 200px;
+        height: 400px;
+        margin: 0;
+        background-color: gray;
+        color: white;
+        display: flex;
+        display: table-cell;
+        vertical-align:middle;
+        background-color: yellow;
+        color: black;
+       
+        text-align: center;
+        font-size: 1px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        border-radius: 15px;
+        border: 3px dashed blue;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 45px;
+        margin-bottom: 1000px;
+    }
+    .popup2 .content2{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%)  scale(0);
+        background: #fff;
+        width: 300px;
+        height: 300px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200;
+    
+    }
+    .popup3 .content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%)  scale(0);
+        background: #fff;
+        width: 500px;
+        height: 300px;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 200;
+    
+    }
+    .popup3 .content .text {
+            font-size: 5px;
+    
+    }
+    .text1{
+        font-size: 5px;
+    }
+}
 /* @media only screen and (max-width: 2000px) {
     .button2{
         background-color: yellow;
