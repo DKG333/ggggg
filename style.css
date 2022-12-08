@@ -1695,9 +1695,9 @@ hr{
 }
 @media (min-width: 800px) and (max-width: 968px)
 {
-    #packages{
+    /* #packages{
         display: none;
-    }
+    } */
     .button2{
         width: 200px;
         height: 400px;
